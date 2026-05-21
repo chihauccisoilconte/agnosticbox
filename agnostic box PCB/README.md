@@ -6,6 +6,8 @@ The PCB was made with [KiCad](https://www.kicad.org/), an open source electronic
 
 Use the KiCad project files to inspect or modify the schematic and PCB layout. Use the Gerber and drill files when ordering or manufacturing the PCB.
 
+For travel and safety, the standard Agnostic Box build does not include a battery. The PCB still includes the possibility of adding one through the battery footprint/connection, so builders can adapt the power setup if their use case requires it.
+
 ## License
 
 MIT License

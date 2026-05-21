@@ -2,9 +2,13 @@
 
 This repository contains the files necessary to make an Agnostic Box.
 
+The Agnostic Box is a versatile DMI (Digital Musical Instrument) that can be programmed in many ways. It is powered by an Arduino Nano ESP32, so it can run different interactive music, sound, and sensor-based sketches; this repository provides example sketches using the Mozzi audio synthesis library. The box is equipped with three potentiometers, three buttons, three LEDs, an MPU6050/GY-521 motion sensor connected over I2C, and a PAM8302A amplifier, giving it a compact set of tactile, visual, motion, and audio features for building custom musical interactions.
+
 ## Author
 
 Created by [chihauccisoilconte](https://chihauccisoilconte.eu/).
+
+The Agnostic Box is an idea by Raul Masu and Nicolo Merendino (aka chi ha ucciso il conte?).
 
 ## Contents
 
