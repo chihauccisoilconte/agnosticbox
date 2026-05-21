@@ -1,0 +1,1249 @@
+(export 
+  (version "E") 
+  (design 
+    (source "C:\\Users\\chiha\\Documents\\0 - HKUST_GZ\\01 - courses\\digital_fabrication_and_physical_computing\\00_agnostic_box\\agnosticbox_nano\\PCB\\PCB.kicad_sch") 
+    (date "14/08/2025 14:01:57") 
+    (tool "Eeschema (6.0.4)") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "PCB.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "A1") 
+      (value "Arduino_Nano_v3.x") 
+      (footprint "Module:Arduino_Nano") 
+      (datasheet "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf") 
+      (libsource 
+        (lib "MCU_Module") 
+        (part "Arduino_Nano_v3.x") 
+        (description "Arduino Nano v3.x")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "02ec16b9-8ced-4159-b64a-a036b5169347")) 
+    (comp 
+      (ref "BT1") 
+      (value "Battery") 
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical") 
+      (libsource 
+        (lib "Device") 
+        (part "Battery") 
+        (description "Multiple-cell battery")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "0834b41d-f6f1-43e2-8520-e7638fd21ba6")) 
+    (comp 
+      (ref "D1") 
+      (value "LED") 
+      (footprint "LED_THT:LED_D5.0mm") 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "1fe9674b-8719-4ca3-a707-fb0a7a611e1e")) 
+    (comp 
+      (ref "D2") 
+      (value "LED") 
+      (footprint "LED_THT:LED_D5.0mm") 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "8cfbfdd7-80a6-4548-b27d-7b5225ddf671")) 
+    (comp 
+      (ref "D3") 
+      (value "LED") 
+      (footprint "LED_THT:LED_D5.0mm") 
+      (libsource 
+        (lib "Device") 
+        (part "LED") 
+        (description "Light emitting diode")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "ed64da29-44ba-4263-ac7b-57b7fbf51a35")) 
+    (comp 
+      (ref "J1") 
+      (value "Conn_01x02_Female") 
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical") 
+      (libsource 
+        (lib "Connector") 
+        (part "Conn_01x02_Female") 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "fff34b63-f9ca-49b5-8ad5-f92410864411")) 
+    (comp 
+      (ref "R1") 
+      (value "R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "6b7626ba-72a0-46bb-9915-662699525ab0")) 
+    (comp 
+      (ref "R2") 
+      (value "R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "4d9f2261-4538-4750-9758-165f26e832d0")) 
+    (comp 
+      (ref "R3") 
+      (value "R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "9625ca51-d997-44f4-87ff-ffd6f16a13e1")) 
+    (comp 
+      (ref "R4") 
+      (value "R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "8a1485e9-5cc5-4469-a51b-69411392e758")) 
+    (comp 
+      (ref "R5") 
+      (value "R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "c9567e69-4db4-4032-9662-72ca9b00cd47")) 
+    (comp 
+      (ref "R6") 
+      (value "R") 
+      (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R") 
+        (description "Resistor")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "e5a1bdd6-d3fc-4a65-ba1b-13795d493855")) 
+    (comp 
+      (ref "RV1") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "b550da5f-f240-4ece-9f9a-9483ba21e27a")) 
+    (comp 
+      (ref "RV2") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "65231633-e45b-460e-9b83-c352bd7be753")) 
+    (comp 
+      (ref "RV3") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal") 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "73acc999-0fe8-4487-b66a-cf99013eddee")) 
+    (comp 
+      (ref "SW1") 
+      (value "SW_DIP_x01") 
+      (footprint "Button_Switch_THT:SW_PUSH_6mm") 
+      (libsource 
+        (lib "Switch") 
+        (part "SW_DIP_x01") 
+        (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "d500aa26-c2b8-487b-ba54-05cedd256249")) 
+    (comp 
+      (ref "SW2") 
+      (value "SW_DIP_x01") 
+      (footprint "Button_Switch_THT:SW_PUSH_6mm") 
+      (libsource 
+        (lib "Switch") 
+        (part "SW_DIP_x01") 
+        (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "d5fdc698-bb21-4308-95c7-1a71ab3d2281")) 
+    (comp 
+      (ref "SW3") 
+      (value "SW_DIP_x01") 
+      (footprint "Button_Switch_THT:SW_PUSH_6mm") 
+      (libsource 
+        (lib "Switch") 
+        (part "SW_DIP_x01") 
+        (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "0c8c159d-59d5-4418-ae48-245b4260d3ae")) 
+    (comp 
+      (ref "U1") 
+      (value "GY-521") 
+      (footprint "gy521:GY-521") 
+      (fields 
+        (field 
+          (name "Availability") "Not in stock") 
+        (field 
+          (name "Check_prices") "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda") 
+        (field 
+          (name "Description") "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n") 
+        (field 
+          (name "MF") "GODREAM FORDREAM CO., LIMITED") 
+        (field 
+          (name "MP") "GY-521") 
+        (field 
+          (name "Package") "Package") 
+        (field 
+          (name "Price") "None") 
+        (field 
+          (name "SnapEDA_Link") "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap")) 
+      (libsource 
+        (lib "GY-521") 
+        (part "GY-521") 
+        (description "")) 
+      (property 
+        (name "MF") 
+        (value "GODREAM FORDREAM CO., LIMITED")) 
+      (property 
+        (name "Description") 
+        (value "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n")) 
+      (property 
+        (name "Package") 
+        (value "Package")) 
+      (property 
+        (name "Price") 
+        (value "None")) 
+      (property 
+        (name "SnapEDA_Link") 
+        (value "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap")) 
+      (property 
+        (name "MP") 
+        (value "GY-521")) 
+      (property 
+        (name "Availability") 
+        (value "Not in stock")) 
+      (property 
+        (name "Check_prices") 
+        (value "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda")) 
+      (property 
+        (name "Sheetname") 
+        (value "")) 
+      (property 
+        (name "Sheetfile") 
+        (value "PCB.kicad_sch")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "ce8fa233-a69f-4b04-8c82-b482f383375d"))) 
+  (libparts 
+    (libpart 
+      (lib "Connector") 
+      (part "Conn_01x02_Female") 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs "~") 
+      (footprints 
+        (fp "Connector*:*_1x??_*")) 
+      (fields 
+        (field 
+          (name "Reference") "J") 
+        (field 
+          (name "Value") "Conn_01x02_Female") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "Pin_1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "Pin_2") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "Battery") 
+      (description "Multiple-cell battery") 
+      (docs "~") 
+      (fields 
+        (field 
+          (name "Reference") "BT") 
+        (field 
+          (name "Value") "Battery") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "+") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "-") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "LED") 
+      (description "Light emitting diode") 
+      (docs "~") 
+      (footprints 
+        (fp "LED*") 
+        (fp "LED_SMD:*") 
+        (fp "LED_THT:*")) 
+      (fields 
+        (field 
+          (name "Reference") "D") 
+        (field 
+          (name "Value") "LED") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "K") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "A") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "R") 
+      (description "Resistor") 
+      (docs "~") 
+      (footprints 
+        (fp "R_*")) 
+      (fields 
+        (field 
+          (name "Reference") "R") 
+        (field 
+          (name "Value") "R") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive")))) 
+    (libpart 
+      (lib "Device") 
+      (part "R_Potentiometer") 
+      (description "Potentiometer") 
+      (docs "~") 
+      (footprints 
+        (fp "Potentiometer*")) 
+      (fields 
+        (field 
+          (name "Reference") "RV") 
+        (field 
+          (name "Value") "R_Potentiometer") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "passive")))) 
+    (libpart 
+      (lib "GY-521") 
+      (part "GY-521") 
+      (fields 
+        (field 
+          (name "Reference") "U") 
+        (field 
+          (name "Value") "GY-521") 
+        (field 
+          (name "Footprint") "GY-521:GY-521") 
+        (field 
+          (name "MF") "GODREAM FORDREAM CO., LIMITED") 
+        (field 
+          (name "Description") "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n") 
+        (field 
+          (name "Package") "Package") 
+        (field 
+          (name "Price") "None") 
+        (field 
+          (name "SnapEDA_Link") "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap") 
+        (field 
+          (name "MP") "GY-521") 
+        (field 
+          (name "Availability") "Not in stock") 
+        (field 
+          (name "Check_prices") "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda")) 
+      (pins 
+        (pin 
+          (num "ADO") 
+          (name "ADO") 
+          (type "bidirectional")) 
+        (pin 
+          (num "GND") 
+          (name "GND") 
+          (type "bidirectional")) 
+        (pin 
+          (num "INT") 
+          (name "INT") 
+          (type "bidirectional")) 
+        (pin 
+          (num "SCL") 
+          (name "SCL") 
+          (type "bidirectional")) 
+        (pin 
+          (num "SDA") 
+          (name "SDA") 
+          (type "bidirectional")) 
+        (pin 
+          (num "VCC") 
+          (name "VCC") 
+          (type "bidirectional")) 
+        (pin 
+          (num "XCL") 
+          (name "XCL") 
+          (type "bidirectional")) 
+        (pin 
+          (num "XDA") 
+          (name "XDA") 
+          (type "bidirectional")))) 
+    (libpart 
+      (lib "MCU_Module") 
+      (part "Arduino_Nano_v3.x") 
+      (description "Arduino Nano v3.x") 
+      (docs "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf") 
+      (footprints 
+        (fp "Arduino*Nano*")) 
+      (fields 
+        (field 
+          (name "Reference") "A") 
+        (field 
+          (name "Value") "Arduino_Nano_v3.x") 
+        (field 
+          (name "Footprint") "Module:Arduino_Nano") 
+        (field 
+          (name "Datasheet") "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "D1/TX") 
+          (type "bidirectional")) 
+        (pin 
+          (num "2") 
+          (name "D0/RX") 
+          (type "bidirectional")) 
+        (pin 
+          (num "3") 
+          (name "~{RESET}") 
+          (type "input")) 
+        (pin 
+          (num "4") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "5") 
+          (name "D2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "6") 
+          (name "D3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "7") 
+          (name "D4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "8") 
+          (name "D5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "9") 
+          (name "D6") 
+          (type "bidirectional")) 
+        (pin 
+          (num "10") 
+          (name "D7") 
+          (type "bidirectional")) 
+        (pin 
+          (num "11") 
+          (name "D8") 
+          (type "bidirectional")) 
+        (pin 
+          (num "12") 
+          (name "D9") 
+          (type "bidirectional")) 
+        (pin 
+          (num "13") 
+          (name "D10") 
+          (type "bidirectional")) 
+        (pin 
+          (num "14") 
+          (name "D11") 
+          (type "bidirectional")) 
+        (pin 
+          (num "15") 
+          (name "D12") 
+          (type "bidirectional")) 
+        (pin 
+          (num "16") 
+          (name "D13") 
+          (type "bidirectional")) 
+        (pin 
+          (num "17") 
+          (name "3V3") 
+          (type "power_out")) 
+        (pin 
+          (num "18") 
+          (name "AREF") 
+          (type "input")) 
+        (pin 
+          (num "19") 
+          (name "A0") 
+          (type "bidirectional")) 
+        (pin 
+          (num "20") 
+          (name "A1") 
+          (type "bidirectional")) 
+        (pin 
+          (num "21") 
+          (name "A2") 
+          (type "bidirectional")) 
+        (pin 
+          (num "22") 
+          (name "A3") 
+          (type "bidirectional")) 
+        (pin 
+          (num "23") 
+          (name "A4") 
+          (type "bidirectional")) 
+        (pin 
+          (num "24") 
+          (name "A5") 
+          (type "bidirectional")) 
+        (pin 
+          (num "25") 
+          (name "A6") 
+          (type "bidirectional")) 
+        (pin 
+          (num "26") 
+          (name "A7") 
+          (type "bidirectional")) 
+        (pin 
+          (num "27") 
+          (name "+5V") 
+          (type "power_out")) 
+        (pin 
+          (num "28") 
+          (name "~{RESET}") 
+          (type "input")) 
+        (pin 
+          (num "29") 
+          (name "GND") 
+          (type "power_in")) 
+        (pin 
+          (num "30") 
+          (name "VIN") 
+          (type "power_in")))) 
+    (libpart 
+      (lib "Switch") 
+      (part "SW_DIP_x01") 
+      (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol") 
+      (docs "~") 
+      (footprints 
+        (fp "SW?DIP?x1*")) 
+      (fields 
+        (field 
+          (name "Reference") "SW") 
+        (field 
+          (name "Value") "SW_DIP_x01") 
+        (field 
+          (name "Datasheet") "~")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "") 
+          (type "passive"))))) 
+  (libraries 
+    (library 
+      (logical "Connector") 
+      (uri "C:\\Program Files (x86)\\KiCad\\6.0\\share\\kicad\\symbols\\/Connector.kicad_sym")) 
+    (library 
+      (logical "Device") 
+      (uri "C:\\Program Files (x86)\\KiCad\\6.0\\share\\kicad\\symbols\\/Device.kicad_sym")) 
+    (library 
+      (logical "GY-521") 
+      (uri "C:/Users/chiha/Documents/4 - applications - win/kicad_libraries/gy521/GY-521.kicad_sym")) 
+    (library 
+      (logical "MCU_Module") 
+      (uri "C:\\Program Files (x86)\\KiCad\\6.0\\share\\kicad\\symbols\\/MCU_Module.kicad_sym")) 
+    (library 
+      (logical "Switch") 
+      (uri "C:\\Program Files (x86)\\KiCad\\6.0\\share\\kicad\\symbols\\/Switch.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "GND") 
+      (node 
+        (ref "A1") 
+        (pin "29") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "A1") 
+        (pin "4") 
+        (pinfunction "GND") 
+        (pintype "power_in")) 
+      (node 
+        (ref "BT1") 
+        (pin "2") 
+        (pinfunction "-") 
+        (pintype "passive")) 
+      (node 
+        (ref "D1") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "D2") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "D3") 
+        (pin "1") 
+        (pinfunction "K") 
+        (pintype "passive")) 
+      (node 
+        (ref "J1") 
+        (pin "1") 
+        (pinfunction "Pin_1") 
+        (pintype "passive")) 
+      (node 
+        (ref "R4") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R5") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "R6") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV2") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV3") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "GND") 
+        (pinfunction "GND") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "2") 
+      (name "Net-(A1-Pad7)") 
+      (node 
+        (ref "A1") 
+        (pin "7") 
+        (pinfunction "D4") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "R1") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "3") 
+      (name "Net-(A1-Pad8)") 
+      (node 
+        (ref "A1") 
+        (pin "8") 
+        (pinfunction "D5") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "R2") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "4") 
+      (name "Net-(A1-Pad9)") 
+      (node 
+        (ref "A1") 
+        (pin "9") 
+        (pinfunction "D6") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "R3") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "5") 
+      (name "Net-(A1-Pad12)") 
+      (node 
+        (ref "A1") 
+        (pin "12") 
+        (pinfunction "D9") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "J1") 
+        (pin "2") 
+        (pinfunction "Pin_2") 
+        (pintype "passive"))) 
+    (net 
+      (code "6") 
+      (name "Net-(A1-Pad13)") 
+      (node 
+        (ref "A1") 
+        (pin "13") 
+        (pinfunction "D10") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "R4") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW1") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "7") 
+      (name "Net-(A1-Pad14)") 
+      (node 
+        (ref "A1") 
+        (pin "14") 
+        (pinfunction "D11") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "R5") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW2") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "8") 
+      (name "Net-(A1-Pad15)") 
+      (node 
+        (ref "A1") 
+        (pin "15") 
+        (pinfunction "D12") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "R6") 
+        (pin "2") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW3") 
+        (pin "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "9") 
+      (name "Net-(A1-Pad20)") 
+      (node 
+        (ref "A1") 
+        (pin "20") 
+        (pinfunction "A1") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "RV1") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "10") 
+      (name "Net-(A1-Pad21)") 
+      (node 
+        (ref "A1") 
+        (pin "21") 
+        (pinfunction "A2") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "RV2") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "11") 
+      (name "Net-(A1-Pad22)") 
+      (node 
+        (ref "A1") 
+        (pin "22") 
+        (pinfunction "A3") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "RV3") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "12") 
+      (name "Net-(A1-Pad23)") 
+      (node 
+        (ref "A1") 
+        (pin "23") 
+        (pinfunction "A4") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U1") 
+        (pin "SDA") 
+        (pinfunction "SDA") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "13") 
+      (name "Net-(A1-Pad24)") 
+      (node 
+        (ref "A1") 
+        (pin "24") 
+        (pinfunction "A5") 
+        (pintype "bidirectional")) 
+      (node 
+        (ref "U1") 
+        (pin "SCL") 
+        (pinfunction "SCL") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "14") 
+      (name "Net-(A1-Pad30)") 
+      (node 
+        (ref "A1") 
+        (pin "30") 
+        (pinfunction "VIN") 
+        (pintype "power_in")) 
+      (node 
+        (ref "BT1") 
+        (pin "1") 
+        (pinfunction "+") 
+        (pintype "passive"))) 
+    (net 
+      (code "15") 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref "D1") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R1") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "16") 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref "D2") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R2") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "17") 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref "D3") 
+        (pin "2") 
+        (pinfunction "A") 
+        (pintype "passive")) 
+      (node 
+        (ref "R3") 
+        (pin "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "18") 
+      (name "VCC") 
+      (node 
+        (ref "A1") 
+        (pin "17") 
+        (pinfunction "3V3") 
+        (pintype "power_out")) 
+      (node 
+        (ref "RV1") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV2") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive")) 
+      (node 
+        (ref "RV3") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW1") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW2") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "SW3") 
+        (pin "1") 
+        (pintype "passive")) 
+      (node 
+        (ref "U1") 
+        (pin "VCC") 
+        (pinfunction "VCC") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "19") 
+      (name "unconnected-(A1-Pad1)") 
+      (node 
+        (ref "A1") 
+        (pin "1") 
+        (pinfunction "D1/TX") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "20") 
+      (name "unconnected-(A1-Pad2)") 
+      (node 
+        (ref "A1") 
+        (pin "2") 
+        (pinfunction "D0/RX") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "21") 
+      (name "unconnected-(A1-Pad3)") 
+      (node 
+        (ref "A1") 
+        (pin "3") 
+        (pinfunction "~{RESET}") 
+        (pintype "input"))) 
+    (net 
+      (code "22") 
+      (name "unconnected-(A1-Pad5)") 
+      (node 
+        (ref "A1") 
+        (pin "5") 
+        (pinfunction "D2") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "23") 
+      (name "unconnected-(A1-Pad6)") 
+      (node 
+        (ref "A1") 
+        (pin "6") 
+        (pinfunction "D3") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "24") 
+      (name "unconnected-(A1-Pad10)") 
+      (node 
+        (ref "A1") 
+        (pin "10") 
+        (pinfunction "D7") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "25") 
+      (name "unconnected-(A1-Pad11)") 
+      (node 
+        (ref "A1") 
+        (pin "11") 
+        (pinfunction "D8") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "26") 
+      (name "unconnected-(A1-Pad16)") 
+      (node 
+        (ref "A1") 
+        (pin "16") 
+        (pinfunction "D13") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "27") 
+      (name "unconnected-(A1-Pad18)") 
+      (node 
+        (ref "A1") 
+        (pin "18") 
+        (pinfunction "AREF") 
+        (pintype "input"))) 
+    (net 
+      (code "28") 
+      (name "unconnected-(A1-Pad19)") 
+      (node 
+        (ref "A1") 
+        (pin "19") 
+        (pinfunction "A0") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "29") 
+      (name "unconnected-(A1-Pad25)") 
+      (node 
+        (ref "A1") 
+        (pin "25") 
+        (pinfunction "A6") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "30") 
+      (name "unconnected-(A1-Pad26)") 
+      (node 
+        (ref "A1") 
+        (pin "26") 
+        (pinfunction "A7") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "31") 
+      (name "unconnected-(A1-Pad27)") 
+      (node 
+        (ref "A1") 
+        (pin "27") 
+        (pinfunction "+5V") 
+        (pintype "power_out"))) 
+    (net 
+      (code "32") 
+      (name "unconnected-(A1-Pad28)") 
+      (node 
+        (ref "A1") 
+        (pin "28") 
+        (pinfunction "~{RESET}") 
+        (pintype "input"))) 
+    (net 
+      (code "33") 
+      (name "unconnected-(U1-PadADO)") 
+      (node 
+        (ref "U1") 
+        (pin "ADO") 
+        (pinfunction "ADO") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "34") 
+      (name "unconnected-(U1-PadINT)") 
+      (node 
+        (ref "U1") 
+        (pin "INT") 
+        (pinfunction "INT") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "35") 
+      (name "unconnected-(U1-PadXCL)") 
+      (node 
+        (ref "U1") 
+        (pin "XCL") 
+        (pinfunction "XCL") 
+        (pintype "bidirectional"))) 
+    (net 
+      (code "36") 
+      (name "unconnected-(U1-PadXDA)") 
+      (node 
+        (ref "U1") 
+        (pin "XDA") 
+        (pinfunction "XDA") 
+        (pintype "bidirectional")))))
