@@ -2,8 +2,13 @@
   Arduino Nano ESP32
   MPU6050 + 3 Pots + 3 Buttons + 3 LEDs
 
-  Array:
-  [pot0, pot1, pot2, button0, button1, button2, compAngleY]
+  Serial array:
+  [pot0Mapped, pot1Mapped, pot2Mapped, button0, button1, button2, gyroMapped]
+
+  Pot values are mapped from 12-bit ADC range 0-4095 to 1-127.
+  Gyro angle value maps 0-90 degrees to 0-127.
+  Gyro values below 0 clamp to 0.
+  Gyro values above 127 clamp to 120.
 
   Connections:
   A1 -> pot 0
@@ -63,10 +68,9 @@ void setup() {
   Serial.begin(115200);
   delay(1000);
 
-  analogReadResolution(12); // Nano ESP32: 0–4095
+  analogReadResolution(12); // Nano ESP32: 0-4095
 
-  // I2C on Nano ESP32
-  Wire.begin(); 
+  Wire.begin();
   // If needed, use this instead:
   // Wire.begin(A4, A5);
 
@@ -88,7 +92,7 @@ void setup() {
   pinMode(buttonPin1, INPUT);
   pinMode(buttonPin2, INPUT);
 
-  Serial.println("Nano ESP32 sensor test ready");
+  Serial.println("Nano ESP32 mapped serial sensor test ready");
 }
 
 void loop() {
@@ -107,18 +111,17 @@ void loop() {
   int btn1 = digitalRead(buttonPin1) == buttonPressedState ? 1 : 0;
   int btn2 = digitalRead(buttonPin2) == buttonPressedState ? 1 : 0;
 
-  sensorData[0] = (int)pot0Smooth;
-  sensorData[1] = (int)pot1Smooth;
-  sensorData[2] = (int)pot2Smooth;
+  sensorData[0] = mapPotToMidi((int)pot0Smooth);
+  sensorData[1] = mapPotToMidi((int)pot1Smooth);
+  sensorData[2] = mapPotToMidi((int)pot2Smooth);
   sensorData[3] = btn0;
   sensorData[4] = btn1;
   sensorData[5] = btn2;
-  sensorData[6] = (int)compAngleY;
+  sensorData[6] = mapGyroToMidi(compAngleY);
 
-  // LED brightness: 12-bit ADC to 8-bit PWM
-  int brightness0 = sensorData[0] / 16;
-  int brightness1 = sensorData[1] / 16;
-  int brightness2 = sensorData[2] / 16;
+  int brightness0 = map(sensorData[0], 1, 127, 0, 255);
+  int brightness1 = map(sensorData[1], 1, 127, 0, 255);
+  int brightness2 = map(sensorData[2], 1, 127, 0, 255);
 
   analogWrite(ledPin0, btn0 ? brightness0 : 0);
   analogWrite(ledPin1, btn1 ? brightness1 : 0);
@@ -127,6 +130,25 @@ void loop() {
   printArray(sensorData, 7);
 
   delay(10);
+}
+
+int mapPotToMidi(int value) {
+  value = constrain(value, 0, 4095);
+  return map(value, 0, 4095, 1, 127);
+}
+
+int mapGyroToMidi(float angle) {
+  int mappedValue = map((int)angle, 0, 90, 0, 127);
+
+  if (mappedValue < 0) {
+    return 0;
+  }
+
+  if (mappedValue > 127) {
+    return 120;
+  }
+
+  return mappedValue;
 }
 
 void printArray(int arr[], int length) {
